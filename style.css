@@ -1,0 +1,45 @@
+body{
+    margin:0;
+    padding-top: 880px;
+}
+#welcome{
+    position:absolute;
+    overflow: hidden;
+    height: 800px;
+    color:brown;
+    display:table;
+    width:100%;
+    height: 100%;
+    text-align: center;
+}
+h1{
+    font-size: 40px;
+    line-height: 1.2;
+    font-weight: 300;
+}
+h2{
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 300;
+}
+.menu{
+    list-style: none;
+    position: absolute;
+    top: 10px;
+    z-index: 10;
+    cursor: pointer;
+}
+.links{
+    float: left;
+    font-family: comic;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-right: 9px;
+    padding-left: 9px;
+    padding-bottom: 5px;
+
+}
+.name{
+    font-family: 'Comic Neue';
+    font-size: 50px;
+}
